@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('fondo1.jpg');
+    background-size: cover;
+    height: 100vmax;
+    background-position: center;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    margin-top: 100px;
+}
+
+#principal{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+form {
+    margin-top: 2vw;
+    text-align: center;
+    background-color: white;
+    font-size: 2vw;
+}
+
+
+h2 {
+    padding-top: 4vw;
+    padding: bottom 4vw;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-weight: normal;
+    font-style: italic;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #bdbdbd;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #212121;
+    color: #e0e0e0;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0353ff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #0353ff;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #e2b009;
+}
