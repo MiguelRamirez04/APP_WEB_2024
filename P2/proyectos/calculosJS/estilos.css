@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url('fondo1.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vmax;
     background-position: center;
     color: #e0e0e0;
@@ -23,13 +24,6 @@ body {
     margin: 0 auto;
     max-width: 1920px;
 }
-form {
-    margin-top: 2vw;
-    text-align: center;
-    background-color: white;
-    font-size: 2vw;
-}
-
 
 h2 {
     padding-top: 4vw;
@@ -39,47 +33,47 @@ h2 {
     font-size: 4vw;
     font-weight: normal;
     font-style: italic;
+    background-color: hsla(0, 0%, 5%, 0.395);
 }
 
-label {
-    display: block;
-    margin-top: 10px;
-    font-size: 14px;
-    color: #bdbdbd;
-}
-
-input[type="number"],
-select {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    font-size: 16px;
-    background-color: #212121;
-    color: #e0e0e0;
-}
-
-input[type="button"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #0353ff;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-input[type="button"]:hover {
-    background-color: #0353ff;
-}
-
-#resultado {
-    margin-top: 20px;
-    font-size: 18px;
+form {
+    margin-top: 2vw;
     text-align: center;
-    color: #e2b009;
+    background-color: white;
+    font-size: 2vw;
+}
+
+hr {
+    color: white;
+}
+
+.caja1{
+    font-size: 2vw;
+    color: black;
+    width: 10%;
+    font-weight: bolder;
+}
+
+#tipo {
+    width: auto;
+}
+
+#boton {
+    margin-top: 2vw;
+    padding: 2vw;
+    font-size: 2vw;
+    background-color: #09bcf7;
+    border-radius: 10%;
+    border: 1px solid #09bcf7;
+}
+
+#boton:hover {
+    background-color: #0d0d0d;
+    border: 1px solid #0d0d0d;
+}
+
+#boton:active {
+    background-color: #1ded1d;
+    border: 1px solid #1ded1d;
+    color: black;
 }

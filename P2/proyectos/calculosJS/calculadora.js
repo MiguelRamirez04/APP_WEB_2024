@@ -16,9 +16,10 @@ function operaciones()
         
     }
     
-    respuesta=document.getElementById("resultado").innerHTML=`<h3>${n1} ${tipoope} ${n2} = ${ope}</h3>`
+    respuesta=document.getElementById("resultado").innerHTML=`<h2>${n1} ${tipoope} ${n2} = ${ope}</h2>`
     }
     else
+        respuesta=document.getElementById("resultado").innerHTML=`<h2>Ingresa numeros porfavor...</h2>`
         alert('Ingresa numeros porfavor...');
     
 }
