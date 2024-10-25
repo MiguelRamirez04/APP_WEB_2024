@@ -1,0 +1,130 @@
+/* Aplicar estilos generales  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* APLICAR ESTILOS A EL HEADER "INICIO" */
+#inicio {
+    background-image: url(../img/fondo1.jpg);
+    background-size: cover;
+    height: 100vmin;
+}
+
+.contenedor {
+    margin: auto;
+    width: 90%;
+    max-width: 1920px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu p {
+    display: inline;
+    font-size: 2vmax;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.lista {
+    display: flex;
+    list-style-type: none;
+    font-size: 1vw;
+}
+
+.lista li {
+    margin-left: 1.5vmin;
+    justify-content: center;
+}
+
+.btn_menu {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.btn_menu:hover {
+    color: white;
+    font-size: 1.6vw;
+    text-decoration: underline;
+    border: 1px solid black;
+}
+
+.titular {
+    margin-top: 12rem;
+    text-align: center;
+}
+
+.titular h1 {
+    font-size: 4vw;
+}
+
+.titular h2 {
+    font-size: 2,5vw;
+    margin-bottom: 4vw;
+}
+
+.btn {
+    background-color: #5db8f8;
+    padding: 2vw;
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    font-size: 1.1vw;
+}
+
+.btn:active {
+    background-color: #f0ea328a;
+    color: black;
+}
+/* Aplicar estilos a la seccion "sobremi" */
+
+
+
+/* convertir con un hover a una cuadrada con bordes redondeados */
+img:hover{
+    transform:(1.1);
+    transition: 0.5s;
+    border-radius: 10px;
+    border: 10px #323be25c;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* APLICAR ESTILOS A LA SECCION "SERVICIOS" */
+
+#servicios {
+    text-align: center;
+    padding: 0%;
+    border-top: 100px;
+}
+
+#boton {
+    align-items: auto;
+    background-color: #323be25c;
+}
+
+#boton:hover{
+    background-color: yellow;
+}
+
+/* Aplicar estilos a el atributo class */
+
+
+
+/* Aplicar estilos al pie */
+
