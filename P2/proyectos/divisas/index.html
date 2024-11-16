@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora con Conversión de Moneda</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="calculadora.js"></script>
+</head>
+
+<body>
+    <div id="principal">
+        <h2>.:CALCULADORA DE CONVERSIÓN DE MONEDA:.</h2>
+        <hr>
+        <form>
+            <label for="n1">Cantidad:</label>
+            <input class="caja1" type="number" id="n1" autofocus><br>
+
+            <label for="tipo">Tipo de Conversión:</label>
+            <select class="caja1" id="tipo" onchange="mostrarIcono()">
+                <option value="+">Dólares a Pesos</option>
+                <option value="-">Pesos a Dólares</option>
+                <option value="*">Dólares a Euros</option>
+                <option value="/">Euros a Dólares</option>
+            </select><br>
+
+            <div id="iconoMoneda">
+                <img id="imagenMoneda" src="" alt="Moneda" width: 5px;>
+            </div><br>
+
+            <input id="boton" type="button" value="Calcular" onclick="operaciones()">
+        </form>
+        <hr>
+        <div id="resultado"></div>
+    </div>
+</body>
+
+</html>

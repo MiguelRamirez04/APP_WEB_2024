@@ -1,61 +1,96 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Proyectos</title>
+    <title>Menú de Proyectos</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
         }
-        body{
-            background-color: rgba(0, 0, 0, 0.334);
-        }
-        h1{
-           background-color: rgba(0, 0, 0, 0.334);
-           padding: 2rem;
-           text-align: center;
-           color: white;
-           text-decoration: none;
-           font-style: italic;
-           font-weight: bolder;
-           margin-bottom: 2rem;
-        }
-        #contenedor{
-            background-image: url(fondo1.jpg);
-            background-size: cover;
-            width: 70%;
-            height: 300px;
-            margin: 0 auto;
+        
+        body {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-size: 16px;
         }
 
-        ol{
-            padding-left: 40%;
-            font-size: 2rem;
-            color: black;  
+        #contenedor {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border-radius: 15px;
+            padding: 30px 50px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
         }
 
-        li a{
-            display: block;
-            text-align: left;
-            margin-bottom: 2rem;
-            font-size: 2rem;
-            color: black;  
+        h1 {
+            color: hsl(54, 99%, 48%);
+            font-size: 2.5em;
+            margin-bottom: 1.5rem;
+            font-weight: bold;
+            text-shadow: 0 3px 8px rgba(212, 0, 11, 0.5);
+        }
+
+        ol {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        li a {
+            display: inline-block;
+            text-decoration: none;
+            color: #d40000;
+            font-size: 1.5em;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background 0.3s, color 0.3s;
+            box-shadow: 0 2px 8px hsla(58, 100%, 51%, 0.2);
+        }
+
+        li a:hover {
+            background-color: #f7e203;
+            color: #1a1a1a;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9em;
+            color: #aaa;
         }
     </style>
 </head>
 <body>
     <div id="contenedor">
         <header>
-            <h1>Menu Proyectos FrontEnd</h1>
+            <h1>Menú de Proyectos FrontEnd</h1>
         </header>
         <section>
             <ol>
-                <li><a href="calculosJS/index.html" target="_blank" >Calculo JS</a></li>
-                <li><a href="menu_horizontal_css/index.html" target="_blank">Menu Horizontal CSS</a></li>
+                <li><a href="calculosJS/index.html" target="_blank">Cálculo JS</a></li>
+                <li><a href="menu_horizontal_css/index.html" target="_blank">Menú Horizontal CSS</a></li>
                 <li><a href="proyectoweb/index.html" target="_blank">Proyecto Web</a></li>
+                <li><a href="agenda/php/login.php" target="_blank">Agenda</a></li>
+                <li><a href="subir_doctos/login.php" target="_blank">Subir_Doctos</a></li>
             </ol>
         </section>
+        <footer>
+            <p>&copy; 2024 - Proyectos Web</p>
+        </footer>
     </div>
 </body>
 </html>

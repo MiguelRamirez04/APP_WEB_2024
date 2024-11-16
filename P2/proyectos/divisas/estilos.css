@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('fondo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vmax;
+    background-position: center;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    margin-top: 100px;
+}
+
+#principal{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+h2 {
+    padding-top: 4vw;
+    padding: bottom 4vw;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-weight: normal;
+    font-style: italic;
+    background-color: hsla(0, 0%, 5%, 0.395);
+}
+
+form {
+    margin-top: 2vw;
+    text-align: center;
+    background-color: white;
+    font-size: 2vw;
+}
+
+hr {
+    color: white;
+}
+
+.caja1{
+    font-size: 2vw;
+    color: black;
+    width: 10%;
+    font-weight: bolder;
+}
+
+#tipo {
+    width: auto;
+}
+
+#boton {
+    margin-top: 2vw;
+    padding: 2vw;
+    font-size: 2vw;
+    background-color: #09bcf7;
+    border-radius: 10%;
+    border: 1px solid #09bcf7;
+}
+
+#boton:hover {
+    background-color: #0d0d0d;
+    border: 1px solid #0d0d0d;
+}
+
+#boton:active {
+    background-color: #1ded1d;
+    border: 1px solid #1ded1d;
+    color: black;
+}
